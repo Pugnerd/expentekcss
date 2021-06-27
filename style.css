@@ -1,0 +1,163 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #22b573;
+  position: relative;
+}
+
+body .navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+  position: fixed;
+  top: 23px;
+  right: 23px;
+  height: 80px;
+  width: 80px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  body .navbar.navbar-1 .navbar-toggler-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body .navbar.navbar-1 .navbar-toggler-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+body h1 {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  body h1 {
+    font-size: 21px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body h1 {
+    font-size: 18px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    width: 100px;
+  }
+}
+
+body .main {
+  width: 100vw;
+  height: 390px;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 65px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .main .item {
+  width: 270px;
+  height: 390px;
+}
+
+body .main #first {
+  color: #d29b42;
+  background-color: black;
+  position: relative;
+}
+
+body .main #first h6 {
+  margin: 20px;
+}
+
+body .main #first p {
+  margin: 20px;
+  color: white;
+  font-size: 13px;
+}
+
+body .main #first #read {
+  position: absolute;
+  margin: 0;
+  bottom: -18px;
+  font-weight: bold;
+}
+
+body .main #second {
+  background-color: white;
+  position: relative;
+}
+
+body .main #second h6 {
+  color: #d29b42;
+  margin: 20px;
+}
+
+body .main #second p {
+  margin: 20px;
+  font-size: 13px;
+}
+
+body .main #second #read {
+  position: absolute;
+  margin: 0;
+  bottom: -18px;
+  font-weight: bold;
+}
+
+body .main #third {
+  background-color: black;
+  position: relative;
+}
+
+body .main #third svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  color: white;
+}
+
+body .main #third p {
+  color: #d29b42;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+body .main #third h6 {
+  color: #d29b42;
+}
+
+body .main #third #read {
+  position: absolute;
+  bottom: -18px;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
